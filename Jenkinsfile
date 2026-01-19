@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("stage1- hello"){
       steps{
-        echo "Hello from jenkins to the user"
+        echo "Hello from jenkins to the user testing auto trigger"
       }
     }
     stage("stage2 - systeminfo"){
