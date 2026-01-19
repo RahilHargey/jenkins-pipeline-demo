@@ -4,6 +4,7 @@ pipeline{
     stage("stage1- hello"){
       steps{
         echo "Hello from jenkins to the user testing auto trigger"
+        echo "checking through ngrok"
       }
     }
     stage("stage2 - systeminfo"){
