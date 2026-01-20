@@ -6,8 +6,8 @@ pipeline {
             steps {
                 sshagent(credentials: ['ssh-server']) {
                     sh """
-                        ssh -o StrictHostKeyChecking=no ubuntu@43.205.238.10 hostname
-                        ssh -o StrictHostKeyChecking=no ubuntu@43.205.238.10 whoami
+                        ssh -o StrictHostKeyChecking=no ubuntu@3.109.184.15 hostname
+                        ssh -o StrictHostKeyChecking=no ubuntu@3.109.184.15 whoami
                         echo "ssh Done successfully"
                     """
                 }
